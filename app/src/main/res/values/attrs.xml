@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextViewStyle">
+        <attr name="customText" format="string" />
+        <attr name="customTextSize" format="dimension" />
+        <attr name="customTextColor" format="color" />
+        <attr name="customBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomProgressBarStyle">
+        <attr name="maxProgress" format="integer" />
+        <attr name="curProgress" format="integer" />
+        <attr name="centerText" format="string" />
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="innerColor" format="color" />
+        <attr name="outerColor" format="color" />
+        <attr name="arcWidth" format="dimension" />
+
+
+    </declare-styleable>
+</resources>
